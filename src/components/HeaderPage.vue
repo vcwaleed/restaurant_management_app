@@ -3,7 +3,6 @@
       <router-link to="/" class="logo">Home</router-link> 
       <div class="nav-links">
         <router-link  to="addrestaurant">Add Restaurant</router-link >
-        <router-link  to="updateRestaurant">Update Restaurant</router-link >
         <a v-on:click="logout">Logout</a>
       </div>
     </div>

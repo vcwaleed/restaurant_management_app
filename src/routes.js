@@ -29,7 +29,8 @@ const routes = [
     {
         name: 'UpdateRestaurant',
         path: '/updaterestaurant/:id',
-        component: UpdateRestaurant
+        component: UpdateRestaurant,
+        props: true,
     }
 
 
